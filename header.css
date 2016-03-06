@@ -1,0 +1,114 @@
+header: {
+width: 1000px;
+	height: 63px;
+}
+
+header:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+header h1 {
+	float: left;
+	position: relative;
+}
+
+.list {
+	margin-left: 50px;
+	margin-top: 50px;
+	width: 1000px;
+	height: 1310px;
+	background-color:white;
+	}
+
+.tel {
+	margin: 29px 0px 10px 49px;
+	height: 27px;
+	width: 27px;
+	background: url(tel.jpg) no-repeat;
+}
+
+.telephone {
+	margin: 29px 5px 10px 0px;
+	height: 27px;
+	width: 265px;
+	color: #5e696d;
+	font-size: 18px;
+	line-height: 25px;
+	letter-spacing: 1px;
+}
+
+.forma {
+	border-top: 1px solid #a6c3cf;
+	border-bottom: 1px solid #a6c3cf; 
+	border-left: 1px solid #a6c3cf;
+	border-radius: 5px;
+	margin: 26px 5px 10px 10px;
+	background: #0e395e;
+	height: 27px;
+	width: 495px;
+	float: left;
+}
+
+
+
+.forma:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.sneg {
+	background-image: url(sneg.jpg);
+	margin-top: 3px;
+	margin-left: 4px;
+	height: 21px;
+	width: 24px;
+	position: absolute;
+}
+
+h1 input {
+	margin-top: 3px;
+    margin-bottom: 5px;
+    height: 12px;
+    width: 110px;
+    margin-left: 25px;
+    position: relative;
+    margin-right: -22px;
+}
+
+.dom {
+	margin: 22px 5px 10px 8px;
+	background-image: url(dom.jpg);
+	height: 33px;
+	width: 84px;
+}
+
+.vxod {
+	display: inline;
+	padding: 3px 0px 3px 9px;
+	width: 105px;
+	height: 10px;
+    font-family: sans-serif Arial;
+	margin-left: 20px;
+	color: white;
+	font-size: 11px;
+	position: relative;
+	letter-spacing: 0.5px;
+}
+
+.zab {
+	letter-spacing: 0.4px;
+	display: inline;
+	width: 100px;
+	height: 15px;
+	padding-left: 9px;
+	padding-top: 10px;
+	font-size: 12px;
+	font-family: Arial, sans-serif ;
+	position: relative;
+	color: gray;
+	margin-left: 10px;
+	text-decoration: underline;
+}

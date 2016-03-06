@@ -1,0 +1,94 @@
+.kolonki {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.first {
+	width: 24%;
+float: left;
+text-align: center;
+	padding-bottom: 20000px;
+margin-bottom: -20000px;
+/*	background-color: aqua;*/
+}
+
+.first li {
+	color: #114165;
+} 
+
+.katalog:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.katalog {
+	width: 181px;
+	height: 22px;
+	border: 2px solid #8b9599;
+	border-radius: 20px;
+	margin:6px 0px 15px 38px;
+	text-transform: uppercase;
+    font-size: 13px ;
+	background-color: none;
+    box-shadow: 2px 2px 8px 0px rgba(50, 50, 50, 0.75);
+
+}
+
+.katalog li {
+	float:right;
+	margin: 2px 4px 0px 0px;
+	padding: 4px 0px 0px 0px;
+	width: 150px;
+}
+
+
+.katalog img {
+width: 20px;
+padding: 1px 3px 1px 0px;
+}
+
+
+.shin {
+	margin-left: 40px;
+	border: 2px solid #8b9599;
+	border-radius: 20px;
+	width: 146px;
+	height: 26px;
+	color: #114165;
+}
+
+.shin li {
+	float:left;
+	margin: 6px 5px 0px 0px;
+	font-size: 14px;
+}
+
+.shin img {
+   width: 21px;
+   padding: 1px 2px 0px 4px;
+   float: left;
+}
+
+.leftlist li {
+	list-style-position: inside;
+	margin-bottom: 13px;
+    list-style-type: circle;
+	margin-top: 6px;
+	margin-left: 26px;
+	font-family: tahoma;
+	font-size: 12px;
+	letter-spacing: 1.1px;
+}
+
+.leftlist li:last-child {
+	margin-bottom: 5px;
+}
+
+
+.two {
+	text-decoration: underline;
+	font-weight: bold;
+	padding-left: 13px;
+}
